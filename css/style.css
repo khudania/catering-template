@@ -1,0 +1,104 @@
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+
+}
+
+nav{
+    z-index: -1;
+    box-shadow: 1px 1px #6d6d6d;
+}
+
+header{
+    background: url('../img/main.jpeg') no-repeat center;
+    height: 92vh;
+    width: 100%; 
+}
+
+#header{
+    opacity: 0.5;
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    margin-top: -50px;
+    margin-left: -100px;
+    text-align: center;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    background: #fff;
+    border-radius: 50px;
+    padding: 0 10px;
+    
+}
+
+#about img{
+    width: 90%;
+    height: 95%;
+}
+
+#menu p{
+    color: #6d6d6d;
+}
+
+#menu img{
+    width: 90%;
+    height: 90%;
+}
+
+#address{
+    color: rgb(43, 127, 253)
+}
+
+#contact label{
+    color: rgb(36, 219, 143)
+}
+
+
+
+
+
+
+
+/*Media Queries*/
+
+@media(max-width:900px){
+    #header{
+        left: 20%;
+        right: 20%;
+        margin-left: 0;
+    }
+
+    
+
+}
+
+@media(max-width:800px){
+    #about img{
+        display: none;
+    }
+}
+
+@media(max-width:540px){
+    #header{
+        left: 15%;
+        right: 15%;
+        margin-left: 0;
+    }
+
+}
+
+@media(max-width:500px){
+    #header{
+        left: 10%;
+        right: 10%;
+        margin-left: 0;
+    }
+
+}
